@@ -44,6 +44,7 @@ export default function AddResultModal({ isModalOn, setIsModalOn }) {
     results.push(newResult);
 
     newResult = {};
+    setIsModalOn(false);
   }
 
   return (
